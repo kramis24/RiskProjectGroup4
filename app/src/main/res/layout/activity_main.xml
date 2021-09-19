@@ -27,7 +27,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="0"
-                android:text="Help" />
+                android:backgroundTint="#9E884A"
+                android:text="Help"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/playerTextView"
@@ -35,7 +37,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="0"
-                android:text="Player 1" />
+                android:background="#000000"
+                android:text="Player 1"
+                android:textColor="#FF3F3F" />
 
             <TextView
                 android:id="@+id/turnPartTextView"
@@ -43,7 +47,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="Attack" />
+                android:background="#000000"
+                android:text="Attack"
+                android:textColor="#00FFFF" />
 
             <TextView
                 android:id="@+id/troopTextView"
@@ -51,7 +57,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="0"
-                android:text="Troops: 3" />
+                android:background="#000000"
+                android:text="Troops: 3"
+                android:textColor="#00FFFF" />
 
             <Button
                 android:id="@+id/exitButton"
@@ -59,15 +67,19 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="0"
+                android:backgroundTint="#9E884A"
+                android:textColor="#000000"
                 android:text="Exit" />
         </LinearLayout>
 
-        ####further info in MapView.java####
+        ####NOTE: MapView designed with tablet in mind, may look off in emulator.####
+        ####code in MapView.java####
         <com.example.riskproject.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#66CAC2" />
 
         <LinearLayout
             android:id="@+id/bottomBar"
@@ -82,6 +94,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="0"
+                android:backgroundTint="#9E884A"
+                android:textColor="#000000"
                 android:text="Cards" />
 
             <TextView
@@ -95,6 +109,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:backgroundTint="#9E884A"
+                android:textColor="#000000"
                 android:text="Next" />
         </LinearLayout>
     </LinearLayout>
