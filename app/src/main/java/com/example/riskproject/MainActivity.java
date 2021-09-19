@@ -1,5 +1,12 @@
 package com.example.riskproject;
 
+/**
+ * ActivityMain: ties everything together
+ *
+ * @author Dylan Kramis, Phi Nguyen, Charlie Benning
+ * @version 9/19/2021 GUI Prototype
+ */
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;

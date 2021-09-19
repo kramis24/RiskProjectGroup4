@@ -1,5 +1,12 @@
 package com.example.riskproject;
 
+/**
+ * MapView: Illustrates the Risk map
+ *
+ * @author Dylan Kramis, Phi Nguyen, Charlie Benning
+ * @version 9/19/2021 GUI Prototype
+ */
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
