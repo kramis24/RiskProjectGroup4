@@ -15,6 +15,12 @@ import android.view.SurfaceView;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * onCreate
+     * Main method of application, initializes important objects
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

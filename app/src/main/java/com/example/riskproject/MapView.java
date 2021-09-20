@@ -34,8 +34,9 @@ public class MapView extends SurfaceView {
      * MapView
      * Constructor for MapView object, based off of SurfaceView class
      *
-     * @param context
-     * @param attrs
+     * @param context context for MapView object
+     * @param attrs attributes for MapView object
+     *
      */
     public MapView(Context context, AttributeSet attrs) {
 
@@ -58,7 +59,7 @@ public class MapView extends SurfaceView {
      * Draws the map and all overlaying objects
      * NOTE: Locations of drawn items may look off in current prototype state on emulator!
      *
-     * @param canvas
+     * @param canvas canvas being drawn on
      */
     @Override
     protected void onDraw(Canvas canvas) {
@@ -84,6 +85,16 @@ public class MapView extends SurfaceView {
         drawTextBox(1600, 550, 2, PLAYER_2_COLOR, canvas);
     }
 
+    /**
+     * drawTextBox
+     * Draws a text box with a black background and a colored number showing troop count
+     *
+     * @param x horizontal position
+     * @param y vertical position
+     * @param count troop count
+     * @param player hex color of player holding territory
+     * @param canvas canvas being drawn on
+     */
     protected void drawTextBox(int x, int y, int count, int player, Canvas canvas) {
 
         // draws a black square
